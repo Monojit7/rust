@@ -2,16 +2,16 @@
 resolver = "2"
 
 members = [
-    "02_05/b/spawning_tasks_example_experiment",
-    "02_05/e/spawning_tasks_example_solution",
-    "03_03/e/mutex_example",
-    "03_03/b/mutex_example",
-    "03_05/b/semaphore_example",
-    "03_05/e/semaphore_example",
-    "03_07/b/notify_example",
-    "03_07/e/notify_example",
-    "03_09/b/barrier_example",
-    "03_09/e/barrier_example",
-    "03_11/b/rwlock_example",
-    "03_11/e/rwlock_example"
+    "spawning/b/spawning_tasks_example_experiment",
+    "spawning/e/spawning_tasks_example_solution",
+    "mutex/e/mutex_example",
+    "mutex/b/mutex_example",
+    "semaphore/b/semaphore_example",
+    "semaphore/e/semaphore_example",
+    "notify/b/notify_example",
+    "notify/e/notify_example",
+    "barrier/b/barrier_example",
+    "barrier/e/barrier_example",
+    "rwlock/b/rwlock_example",
+    "rwlock/e/rwlock_example"
 ]
