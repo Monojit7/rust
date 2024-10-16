@@ -29,10 +29,12 @@ async fn main() {
     let mut task_handles = Vec::new();
     for can_count in 0..60 {
         if can_count % 12 == 0 {
+            println!("waiting at count {}", can_count);
             notify.notified().await;
 
             // Give the barrier some time to close
             sleep(Duration::from_millis(1)).await;
+            println!("received notification for {}", can_count);
         }
 
         task_handles.push(tokio::spawn(barrier_example(
