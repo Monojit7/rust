@@ -13,5 +13,9 @@ members = [
     "barrier/b/barrier_example",
     "barrier/e/barrier_example",
     "rwlock/b/rwlock_example",
-    "rwlock/e/rwlock_example"
+    "rwlock/e/rwlock_example",
+    "oneshot/b/oneshot_example",
+    "oneshot/e/oneshot_example",
+    "mpsc/b/mpsc_example",
+    "mpsc/e/mpsc_example",
 ]
