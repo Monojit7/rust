@@ -18,4 +18,6 @@ members = [
     "oneshot/e/oneshot_example",
     "mpsc/b/mpsc_example",
     "mpsc/e/mpsc_example",
+    "broadcast/b/broadcast_example",
+    "broadcast/e/broadcast_example",
 ]
